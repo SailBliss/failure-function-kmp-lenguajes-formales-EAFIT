@@ -1,5 +1,5 @@
 # Tarea 1 — Función Failure (Figura 3.19)
-Esta tarea consiste en implementar el algoritmo de la figura 3.19 del libro para construir la función failure utilizada por el algoritmo KMP (Knuth–Morris–Pratt), y verificar los resultados solicitados en el ejercicio 3.4.3.
+Implementar el algoritmo de la figura 3.19 del libro para construir la función failure utilizada por el algoritmo KMP (Knuth–Morris–Pratt), y verificar los resultados solicitados en el ejercicio 3.4.3.
 ---
 ## Entorno de desarrollo
 * Sistema operativo: Windows
@@ -31,7 +31,7 @@ Se probaron los tres patrones indicados en el Exercise 3.4.3:
 * `abababaab`
 * `aaaaaa`
 * `abbaabb`
-Los resultados obtenidos por el programa coinciden exactamente con los cálculos realizados manualmente:
+Los resultados obtenidos coinciden con los cálculos manuales:
 
 <img width="1671" height="683" alt="image" src="https://github.com/user-attachments/assets/4f29f717-d3ed-4e2b-a7b3-103b6115b81b" />
 
@@ -50,9 +50,6 @@ s:    1  2  3  4  5  6  7
 f(s)  0  0  0  1  1  2  3
 --------------------------------------------------
 ```
-Esto confirma que la implementación reproduce correctamente el comportamiento descrito en la Figura 3.19.
----
-
 ## Ejecución
 En la carpeta del proyecto ejecutar:
 
@@ -61,3 +58,6 @@ python failure.py
 ```
 
 El programa imprime las tablas correspondientes a cada palabra.
+--- 
+Fuentes -> [1] Aho, Alfred V., and Alfred V. Aho, eds. Compilers: Principles, Techniques, & Tools. 2nd ed. Boston:
+Pearson/Addison Wesley, 2007.
